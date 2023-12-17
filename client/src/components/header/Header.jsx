@@ -33,6 +33,12 @@ export default function Header() {
         <li className="nav-item">
         <Link to="/">Начало</Link>
       </li>
+      <li className="nav-item">
+        <span>Проекти</span>
+        <ul className="sub-menu">
+          <li><Link to="/projects">Текущи</Link></li>
+        </ul>
+      </li>
         <li className="nav-item">
         <Link to="/login">Вход</Link>
       </li>
